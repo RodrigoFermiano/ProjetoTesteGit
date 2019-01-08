@@ -1,0 +1,73 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PrefeituraConecta.API.Entidades.Arquivos.PGDASD
+{
+    /// <summary>
+    /// Informações de valores calculados para o DAS.
+    /// Nível hierárquico – 2
+    /// Ocorrência – 0:N
+    /// Se não for gerado DAS, o registro não será informado
+    /// </summary>
+
+    public class REG_01000_VALOR_APURADO_CALCULO
+    {
+        /// <summary>
+        /// Indentificador do contribuinte (REG_00000)
+        /// </summary>
+        public int IdContribuinte { get; set; }
+
+
+        /// <summary>
+        /// Texto fixo contendo "01000"
+        /// </summary>
+        public int REG { get; set; }
+
+        /// <summary>
+        /// Número da guia DAS
+        /// </summary>
+        public int Nrpagto { get; set; }
+
+
+        /// <summary>
+        /// Valor principal
+        /// </summary>
+        public decimal Princ { get; set; }
+
+
+        /// <summary>
+        /// Valor da multa
+        /// </summary>
+        public decimal Multa { get; set; }
+
+
+        /// <summary>
+        /// Valor dos juros
+        /// </summary>
+        public decimal Juros { get; set; }
+
+
+        /// <summary>
+        /// Valor total devido
+        /// </summary>
+        public decimal Tdevido { get; set; }
+
+
+        /// <summary>
+        /// Data do vencimento (AAAAMMDD)
+        /// </summary>
+        public int Dtvenc { get; set; }
+
+        /// <summary>
+        /// Data da validade do cálculo (AAAAMMDD)
+        /// </summary>
+        public int Dtvalcalc { get; set; }
+
+        /// <summary>
+        /// Data e hora da emissão do DAS. Formato: aaaammddhhmmss. Hora no formato 24 horas
+        /// </summary>
+        public int Dt_Emissao_Das { get; set; }
+
+    }
+}

@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PrefeituraConecta.API.Entidades.Arquivos.PGDASD
+{
+
+    /// <summary>
+    /// Informações sobre o processo para não optante.
+    /// Nível hierárquico – 2
+    /// Ocorrência – 0:1
+    /// Caso o contribuinte seja não optante, o registro será obrigatório
+    /// </summary>
+
+    public class REG_00001_PROCESSO_NAO_OPTANTE
+    {
+
+        /// <summary>
+        /// Indentificador do contribuinte (REG_00000)
+        /// </summary>
+        public int IdContribuinte { get; set; }
+
+        /// <summary>
+        /// Texto fixo contendo "00001"
+        /// </summary>
+        public int REG { get; set; }
+
+        /// <summary>
+        /// Esfera administrativa do processo. (1 - Federal, 2 – Estadual, 3 – Distrital e 4 – Municipal)
+        /// </summary>
+        public int admtrib { get; set; }
+
+        /// <summary>
+        /// Sigla da Unidade federativa que está protocolado o processo.
+        /// </summary>
+        public string uf { get; set; }
+
+        /// <summary>
+        /// Descrição do município onde está protocolado o processo.
+        /// </summary>
+        public string munic { get; set; }
+
+        /// <summary>
+        /// Código do município onde está protocolado o processo.
+        /// </summary>
+        public int codmunic { get; set; }
+
+        /// <summary>
+        /// Número do processo.
+        /// </summary>
+        public string numproc { get; set; }
+
+
+    }
+}

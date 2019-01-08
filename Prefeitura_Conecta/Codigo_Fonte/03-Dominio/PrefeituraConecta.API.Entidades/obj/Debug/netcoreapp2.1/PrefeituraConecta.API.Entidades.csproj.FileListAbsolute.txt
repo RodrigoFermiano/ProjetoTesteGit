@@ -1,0 +1,8 @@
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.deps.json
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.dll
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.pdb
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.csproj.CoreCompileInputs.cache
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.AssemblyInfoInputs.cache
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.AssemblyInfo.cs
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.dll
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Entidades\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.pdb

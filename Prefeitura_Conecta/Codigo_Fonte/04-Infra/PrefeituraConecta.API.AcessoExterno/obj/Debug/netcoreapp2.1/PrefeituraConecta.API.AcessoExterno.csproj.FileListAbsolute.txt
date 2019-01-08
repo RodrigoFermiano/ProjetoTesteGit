@@ -1,0 +1,9 @@
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.deps.json
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.dll
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.pdb
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.csprojAssemblyReference.cache
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.csproj.CoreCompileInputs.cache
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.AssemblyInfoInputs.cache
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.AssemblyInfo.cs
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.dll
+C:\Projetos\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.AcessoExterno\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.AcessoExterno.pdb
