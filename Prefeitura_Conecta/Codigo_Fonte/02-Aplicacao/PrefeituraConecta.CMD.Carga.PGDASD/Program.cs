@@ -13,7 +13,7 @@ namespace PrefeituraConecta.CMD.Carga.PGDASD
 
         
 
-            var arquivos = Directory.GetFiles(@"C:\Projetos\Prefeitura_Conecta\Arquivos\ParaCarga");
+            var arquivos = Directory.GetFiles(@"C:\Projetos\GIT_HUB\Prefeitura_Conecta\Arquivos\ParaCarga");
 
             var ArquivosParaCarregar = @"C:\Projetos\Prefeitura_Conecta\Arquivos\ParaCarga";
             var ArquivosCarregados = @"C:\Projetos\Prefeitura_Conecta\Arquivos\CargaOK";

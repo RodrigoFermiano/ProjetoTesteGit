@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "PrefeituraConecta.API.Negocio/1.0.0": {
+        "dependencies": {
+          "PrefeituraConecta.API.Entidades": "1.0.0",
+          "PrefeituraConecta.API.Utils": "1.0.0"
+        },
+        "runtime": {
+          "PrefeituraConecta.API.Negocio.dll": {}
+        }
+      },
+      "PrefeituraConecta.API.Entidades/1.0.0": {
+        "runtime": {
+          "PrefeituraConecta.API.Entidades.dll": {}
+        }
+      },
+      "PrefeituraConecta.API.Utils/1.0.0": {
+        "runtime": {
+          "PrefeituraConecta.API.Utils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PrefeituraConecta.API.Negocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrefeituraConecta.API.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PrefeituraConecta.API.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

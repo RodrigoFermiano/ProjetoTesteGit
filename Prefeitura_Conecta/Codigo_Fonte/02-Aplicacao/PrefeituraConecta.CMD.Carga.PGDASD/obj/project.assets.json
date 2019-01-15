@@ -737,11 +737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\02-Aplicacao\\PrefeituraConecta.CMD.Carga.PGDASD\\PrefeituraConecta.CMD.Carga.PGDASD.csproj",
+      "projectUniqueName": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\02-Aplicacao\\PrefeituraConecta.CMD.Carga.PGDASD\\PrefeituraConecta.CMD.Carga.PGDASD.csproj",
       "projectName": "PrefeituraConecta.CMD.Carga.PGDASD",
-      "projectPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\02-Aplicacao\\PrefeituraConecta.CMD.Carga.PGDASD\\PrefeituraConecta.CMD.Carga.PGDASD.csproj",
+      "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\02-Aplicacao\\PrefeituraConecta.CMD.Carga.PGDASD\\PrefeituraConecta.CMD.Carga.PGDASD.csproj",
       "packagesPath": "C:\\Users\\rcfer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\02-Aplicacao\\PrefeituraConecta.CMD.Carga.PGDASD\\obj\\",
+      "outputPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\02-Aplicacao\\PrefeituraConecta.CMD.Carga.PGDASD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -760,8 +760,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj": {
-              "projectPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj"
+            "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj": {
+              "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj"
             }
           }
         }

@@ -12226,11 +12226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Prefeitura_Conecta\\Codigo_Fonte\\01-Apresentacao\\PrefeituraConecta.MVC.UI\\PrefeituraConecta.MVC.UI.csproj",
+      "projectUniqueName": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\01-Apresentacao\\PrefeituraConecta.MVC.UI\\PrefeituraConecta.MVC.UI.csproj",
       "projectName": "PrefeituraConecta.MVC.UI",
-      "projectPath": "C:\\Projetos\\Prefeitura_Conecta\\Codigo_Fonte\\01-Apresentacao\\PrefeituraConecta.MVC.UI\\PrefeituraConecta.MVC.UI.csproj",
+      "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\01-Apresentacao\\PrefeituraConecta.MVC.UI\\PrefeituraConecta.MVC.UI.csproj",
       "packagesPath": "C:\\Users\\rcfer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Prefeitura_Conecta\\Codigo_Fonte\\01-Apresentacao\\PrefeituraConecta.MVC.UI\\obj\\",
+      "outputPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\01-Apresentacao\\PrefeituraConecta.MVC.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

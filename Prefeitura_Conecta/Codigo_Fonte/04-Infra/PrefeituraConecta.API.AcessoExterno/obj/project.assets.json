@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.AcessoExterno\\PrefeituraConecta.API.AcessoExterno.csproj",
+      "projectUniqueName": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.AcessoExterno\\PrefeituraConecta.API.AcessoExterno.csproj",
       "projectName": "PrefeituraConecta.API.AcessoExterno",
-      "projectPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.AcessoExterno\\PrefeituraConecta.API.AcessoExterno.csproj",
+      "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.AcessoExterno\\PrefeituraConecta.API.AcessoExterno.csproj",
       "packagesPath": "C:\\Users\\rcfer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.AcessoExterno\\obj\\",
+      "outputPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.AcessoExterno\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

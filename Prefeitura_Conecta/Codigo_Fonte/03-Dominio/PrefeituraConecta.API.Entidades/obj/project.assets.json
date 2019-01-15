@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj",
+      "projectUniqueName": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj",
       "projectName": "PrefeituraConecta.API.Entidades",
-      "projectPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj",
+      "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj",
       "packagesPath": "C:\\Users\\rcfer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\obj\\",
+      "outputPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

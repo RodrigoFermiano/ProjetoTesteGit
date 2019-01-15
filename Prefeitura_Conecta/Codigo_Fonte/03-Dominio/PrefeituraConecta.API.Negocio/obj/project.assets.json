@@ -719,11 +719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj",
+      "projectUniqueName": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj",
       "projectName": "PrefeituraConecta.API.Negocio",
-      "projectPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj",
+      "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\PrefeituraConecta.API.Negocio.csproj",
       "packagesPath": "C:\\Users\\rcfer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\obj\\",
+      "outputPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -742,11 +742,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj": {
-              "projectPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj"
+            "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj": {
+              "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj"
             },
-            "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.Utils\\PrefeituraConecta.API.Utils.csproj": {
-              "projectPath": "C:\\Projetos\\GIT\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.Utils\\PrefeituraConecta.API.Utils.csproj"
+            "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.Utils\\PrefeituraConecta.API.Utils.csproj": {
+              "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.Utils\\PrefeituraConecta.API.Utils.csproj"
             }
           }
         }
