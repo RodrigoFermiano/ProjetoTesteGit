@@ -12,3 +12,12 @@ C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.A
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.csproj.CoreCompileInputs.cache
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.AssemblyInfoInputs.cache
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.AssemblyInfo.cs
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.pdb
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.dll
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Entidades.pdb
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.csprojAssemblyReference.cache
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.csproj.CopyComplete
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.dll
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.pdb
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Utils.dll
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\04-Infra\PrefeituraConecta.API.Dados\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Utils.pdb

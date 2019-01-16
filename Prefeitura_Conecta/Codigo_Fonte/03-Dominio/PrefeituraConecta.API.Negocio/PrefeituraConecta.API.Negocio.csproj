@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\04-Infra\PrefeituraConecta.API.Dados\PrefeituraConecta.API.Dados.csproj" />
     <ProjectReference Include="..\..\04-Infra\PrefeituraConecta.API.Utils\PrefeituraConecta.API.Utils.csproj" />
     <ProjectReference Include="..\PrefeituraConecta.API.Entidades\PrefeituraConecta.API.Entidades.csproj" />
   </ItemGroup>

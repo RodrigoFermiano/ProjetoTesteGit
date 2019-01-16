@@ -35,3 +35,5 @@ C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\02-Aplicacao\PrefeituraConec
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\02-Aplicacao\PrefeituraConecta.CMD.Carga.PGDASD\obj\Debug\netcoreapp2.1\PrefeituraConecta.CMD.Carga.PGDASD.csproj.CopyComplete
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\02-Aplicacao\PrefeituraConecta.CMD.Carga.PGDASD\obj\Debug\netcoreapp2.1\PrefeituraConecta.CMD.Carga.PGDASD.dll
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\02-Aplicacao\PrefeituraConecta.CMD.Carga.PGDASD\obj\Debug\netcoreapp2.1\PrefeituraConecta.CMD.Carga.PGDASD.pdb
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\02-Aplicacao\PrefeituraConecta.CMD.Carga.PGDASD\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.dll
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\02-Aplicacao\PrefeituraConecta.CMD.Carga.PGDASD\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.pdb

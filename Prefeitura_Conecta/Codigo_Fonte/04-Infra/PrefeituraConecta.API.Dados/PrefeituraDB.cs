@@ -11,7 +11,7 @@ namespace PrefeituraConecta.API.Dados
     {
         private string connectionString = new DBConfiguration().GetconfigurationStringSQL();
 
-        public IEnumerable<Prefeitura> ObterListaPrefeitura()
+        public List<Prefeitura> ObterListaPrefeitura()
         {
             List<Prefeitura> ListaObj = new List<Prefeitura>();
 

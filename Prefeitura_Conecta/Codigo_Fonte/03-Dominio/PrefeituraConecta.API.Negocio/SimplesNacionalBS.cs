@@ -8,23 +8,30 @@ using System.Linq;
 using System.Reflection;
 using PrefeituraConecta.API.Entidades.Arquivos;
 using PrefeituraConecta.API.Entidades.Arquivos.PGDASD.Compatibilidade;
+using PrefeituraConecta.API.Dados;
+using PrefeituraConecta.API.Entidades;
 
 namespace PrefeituraConecta.API.Negocio
 {
     public class SimplesNacionalBS
     {
         ArquivoTexto arquivo = new ArquivoTexto();
+        PrefeituraDB prefeituraDB = new PrefeituraDB();
+        SimplesNacionaDB simplesNacionaDB = new SimplesNacionaDB();
 
         public bool ImportarArquivo_PGDASD(string pathArquivo)
         {
 
-            
 
             #region Declaração das listas
 
+            List<Prefeitura> ListaPefeituras = new List<Prefeitura>();
+
             List<REG_AAAAA_ARQUIVO_DIGITAL> Lista_REG_AAAAA = new List<REG_AAAAA_ARQUIVO_DIGITAL>();
-            
+
             List<REG_00000_CONTRIBUINTE_DADOS_APURACAO> Lista_REG_00000 = new List<REG_00000_CONTRIBUINTE_DADOS_APURACAO>();
+
+            List<REG_00000_CONTRIBUINTE_DADOS_APURACAO> Lista_REG_00000_AUX = new List<REG_00000_CONTRIBUINTE_DADOS_APURACAO>();
 
             List<REG_00001_PROCESSO_NAO_OPTANTE> Lista_REG_00001 = new List<REG_00001_PROCESSO_NAO_OPTANTE>();
 
@@ -62,23 +69,28 @@ namespace PrefeituraConecta.API.Negocio
             List<REG_03130_VALOR_RECEITA_ATIVIDADE_PERCENTUAL_FAIXA_C> Lista_REG_03130 = new List<REG_03130_VALOR_RECEITA_ATIVIDADE_PERCENTUAL_FAIXA_C>();
 
             List<REG_03131_VALOR_RECEITA_ISENCAO_FAIXA_C> Lista_REG_03131 = new List<REG_03131_VALOR_RECEITA_ISENCAO_FAIXA_C>();
-            
+
             List<REG_03132_VALOR_RECEITA_ATIVIDADE_PERCENTUAL_FAIXA_C> Lista_REG_03132 = new List<REG_03132_VALOR_RECEITA_ATIVIDADE_PERCENTUAL_FAIXA_C>();
-            
+
             List<REG_03500_FOLHA_SALARIOS> Lista_REG_03500 = new List<REG_03500_FOLHA_SALARIOS>();
-            
+
             List<REG_04000_PERFIL> Lista_REG_04000 = new List<REG_04000_PERFIL>();
-            
+
             List<REG_99999_ENCERRAMENTO_BLOCO> Lista_REG_99999 = new List<REG_99999_ENCERRAMENTO_BLOCO>();
-                       
+
             List<REG_ZZZZZ_ENCERRAMENTO_ARQUIVO_DIGITAL> Lista_REG_ZZZZZ = new List<REG_ZZZZZ_ENCERRAMENTO_ARQUIVO_DIGITAL>();
-                       
+
 
             #endregion
 
 
             if (File.Exists(pathArquivo))
             {
+                // Obter lista de todas as prefeituras cadastradas
+
+                ListaPefeituras = prefeituraDB.ObterListaPrefeitura();
+
+
                 var arquivo = File.ReadAllLines(pathArquivo).ToList();
 
                 bool inicioBloco = false;
@@ -111,7 +123,7 @@ namespace PrefeituraConecta.API.Negocio
                          if (tipoRegistro.Equals(REG_00000.TipoRegistro.Value))
                          {
                              var obj = new REG_00000_CONTRIBUINTE_DADOS_APURACAO();
-                          
+
                              AtribuirValoresMapeados(obj, dados, obj.GetType());
 
                              if (obj != null)
@@ -125,7 +137,7 @@ namespace PrefeituraConecta.API.Negocio
                          {
 
                              var obj = new REG_00001_PROCESSO_NAO_OPTANTE();
-                             
+
                              AtribuirValoresMapeados(obj, dados, obj.GetType());
 
                              if (obj != null)
@@ -139,7 +151,7 @@ namespace PrefeituraConecta.API.Negocio
                          {
 
                              var obj = new REG_01000_VALOR_APURADO_CALCULO();
-                           
+
                              AtribuirValoresMapeados(obj, dados, obj.GetType());
 
                              if (obj != null)
@@ -153,7 +165,7 @@ namespace PrefeituraConecta.API.Negocio
                          {
 
                              var obj = new REG_01100_PERFIL_DAS();
-                            
+
                              AtribuirValoresMapeados(obj, dados, obj.GetType());
 
                              if (obj != null)
@@ -327,7 +339,7 @@ namespace PrefeituraConecta.API.Negocio
                                  if (obj != null)
                                  {
                                      Lista_REG_03122.Add(obj);
-                                 } 
+                                 }
                              }
 
                          }
@@ -407,6 +419,7 @@ namespace PrefeituraConecta.API.Negocio
 
                      if (tipoRegistro.Equals(REG_99999.TipoRegistro.Value))
                      {
+                         int COD_TOM = 0;
 
                          inicioBloco = false;
 
@@ -419,8 +432,93 @@ namespace PrefeituraConecta.API.Negocio
                              Lista_REG_99999.Add(obj);
                          }
 
+                         ListaPefeituras.ForEach(item =>
+                         {
+                             COD_TOM = Convert.ToInt32(Lista_REG_00000.FirstOrDefault().Cod_TOM);
+                             Lista_REG_00000_AUX.AddRange(Lista_REG_00000.Where(cod_tom => cod_tom.Cod_TOM.Equals(item.ID_PREFEITURA.ToString())));
 
-                         // Obter lista de prefeituras cadastradas
+                         });
+
+
+                         if (Lista_REG_00000_AUX != null && Lista_REG_00000_AUX.Count > 0)
+                         {
+                             // Inserir na base o xml com os dados
+
+                             bool retorno = simplesNacionaDB.InserirDeclaracaoSimplesNacional(COD_TOM, 
+                                                                                              Lista_REG_AAAAA,
+                                                                                              Lista_REG_00000,
+                                                                                              Lista_REG_00001,
+                                                                                              Lista_REG_01000,
+                                                                                              Lista_REG_01100,
+                                                                                              Lista_REG_01500,
+                                                                                              Lista_REG_01501,
+                                                                                              Lista_REG_01502,
+                                                                                              Lista_REG_02000,
+                                                                                              Lista_REG_03000,
+                                                                                              Lista_REG_03100,
+                                                                                              Lista_REG_03110,
+                                                                                              Lista_REG_03111,
+                                                                                              Lista_REG_03112,
+                                                                                              Lista_REG_03120,
+                                                                                              Lista_REG_03121,
+                                                                                              Lista_REG_03122,
+                                                                                              Lista_REG_03122_LAYOUT_ATE_2017,
+                                                                                              Lista_REG_03130,
+                                                                                              Lista_REG_03131,
+                                                                                              Lista_REG_03132,
+                                                                                              Lista_REG_03500,
+                                                                                              Lista_REG_04000,
+                                                                                              Lista_REG_99999);
+                         }
+                         else
+                         {
+                             Lista_REG_00000.Clear();
+
+                             Lista_REG_00001.Clear();
+
+                             Lista_REG_01000.Clear();
+
+                             Lista_REG_01100.Clear();
+
+                             Lista_REG_01500.Clear();
+
+                             Lista_REG_01501.Clear();
+
+                             Lista_REG_01502.Clear();
+
+                             Lista_REG_02000.Clear();
+
+                             Lista_REG_03000.Clear();
+
+                             Lista_REG_03100.Clear();
+
+                             Lista_REG_03110.Clear();
+
+                             Lista_REG_03111.Clear();
+
+                             Lista_REG_03112.Clear();
+
+                             Lista_REG_03120.Clear();
+
+                             Lista_REG_03121.Clear();
+
+                             Lista_REG_03122.Clear();
+
+                             Lista_REG_03122_LAYOUT_ATE_2017.Clear();
+
+                             Lista_REG_03130.Clear();
+
+                             Lista_REG_03131.Clear();
+
+                             Lista_REG_03132.Clear();
+
+                             Lista_REG_03500.Clear();
+
+                             Lista_REG_04000.Clear();
+
+                             Lista_REG_99999.Clear();
+                         }
+
 
                      }
 

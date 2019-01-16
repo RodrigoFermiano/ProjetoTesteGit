@@ -369,6 +369,16 @@
         "runtime": {
           "bin/placeholder/PrefeituraConecta.API.Entidades.dll": {}
         }
+      },
+      "PrefeituraConecta.API.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/PrefeituraConecta.API.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrefeituraConecta.API.Utils.dll": {}
+        }
       }
     }
   },
@@ -1164,12 +1174,18 @@
       "type": "project",
       "path": "../../03-Dominio/PrefeituraConecta.API.Entidades/PrefeituraConecta.API.Entidades.csproj",
       "msbuildProject": "../../03-Dominio/PrefeituraConecta.API.Entidades/PrefeituraConecta.API.Entidades.csproj"
+    },
+    "PrefeituraConecta.API.Utils/1.0.0": {
+      "type": "project",
+      "path": "../PrefeituraConecta.API.Utils/PrefeituraConecta.API.Utils.csproj",
+      "msbuildProject": "../PrefeituraConecta.API.Utils/PrefeituraConecta.API.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
       "PrefeituraConecta.API.Entidades >= 1.0.0",
+      "PrefeituraConecta.API.Utils >= 1.0.0",
       "System.Data.SqlClient >= 4.6.0"
     ]
   },
@@ -1205,6 +1221,9 @@
           "projectReferences": {
             "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj": {
               "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\03-Dominio\\PrefeituraConecta.API.Entidades\\PrefeituraConecta.API.Entidades.csproj"
+            },
+            "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.Utils\\PrefeituraConecta.API.Utils.csproj": {
+              "projectPath": "C:\\Projetos\\GIT_HUB\\Prefeitura_Conecta\\Codigo_Fonte\\04-Infra\\PrefeituraConecta.API.Utils\\PrefeituraConecta.API.Utils.csproj"
             }
           }
         }

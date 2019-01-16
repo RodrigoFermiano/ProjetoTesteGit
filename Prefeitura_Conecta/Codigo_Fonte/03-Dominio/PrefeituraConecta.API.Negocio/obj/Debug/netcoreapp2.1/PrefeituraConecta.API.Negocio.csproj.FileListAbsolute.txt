@@ -26,3 +26,5 @@ C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Negocio\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Negocio.csproj.CopyComplete
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Negocio\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Negocio.dll
 C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Negocio\obj\Debug\netcoreapp2.1\PrefeituraConecta.API.Negocio.pdb
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Negocio\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.dll
+C:\Projetos\GIT_HUB\Prefeitura_Conecta\Codigo_Fonte\03-Dominio\PrefeituraConecta.API.Negocio\bin\Debug\netcoreapp2.1\PrefeituraConecta.API.Dados.pdb
