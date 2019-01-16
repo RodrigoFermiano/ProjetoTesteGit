@@ -419,6 +419,9 @@ namespace PrefeituraConecta.API.Negocio
                              Lista_REG_99999.Add(obj);
                          }
 
+
+                         // Obter lista de prefeituras cadastradas
+
                      }
 
                      if (tipoRegistro.Equals(REG_ZZZZZ.TipoRegistro.Value))
